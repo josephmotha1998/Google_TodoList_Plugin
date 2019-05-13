@@ -23,3 +23,7 @@ $("input[type='text']").keypress(function(e ){
 		$("ul").append("<li><span><i class='far fa-trash-alt'></i></span> "+todoText+"</li>")
 	}
 });
+
+$("#toggleForm").click(function(){
+	$("input[type='text']").fadeToggle();
+});
